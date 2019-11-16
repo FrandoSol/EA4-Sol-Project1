@@ -1,0 +1,439 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db5ceadfb5.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .button1 {
+            border-radius: 4px;
+            border: none;
+            color: #FFFFFF;
+            background-color: red;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button1 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button1 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button1:hover span {
+            padding-right: 25px;
+        }
+
+        .button1:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .button2 {
+            border-radius: 4px;
+            border: none;
+            color: #FFFFFF;
+            background-color: green;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+
+        .button2 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button2 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button2:hover span {
+            padding-right: 25px;
+        }
+
+        .button2:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .button3 {
+            border-radius: 4px;
+            border: none;
+            color: black;
+            background-color: white;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+
+        .button3 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button3 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button3:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .button4 {
+            border-radius: 4px;
+            border: none;
+            color: #FFFFFF;
+            background-color: goldenrod;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+
+        .button4 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button4 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button4:hover span {
+            padding-right: 25px;
+        }
+
+        .button4:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+    </style>
+    <style>
+        body {
+            background-color: black;
+            font-family: cursive;
+        }
+
+        .glow {
+            font-size: 80px;
+            color: red;
+            text-align: center;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #DB8F00, 0 0 40px #DB8F00, 0 0 50px #DB8F00, 0 0 60px #DB8F00, 0 0 70px #DB8F00;
+            }
+
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #00AD18, 0 0 40px #00AD18, 0 0 50px #00AD18, 0 0 60px #00AD18, 0 0 70px #00AD18, 0 0 80px #00AD18;
+            }
+        }
+
+    </style>
+    <title>
+       LBYEC2A EA4 Project 1
+    </title>
+</head>
+
+<body>
+    <div class="row">
+        <div id="M1" class="col-3">
+            <img src="Main1.png" width="200" id="Main1">
+             <img src="Main1.png" width="200" id="Main1">
+            <br>
+            <img src="Main1.png" width="200" id="Main1">
+             <img src="Main1.png" width="200" id="Main1">
+    
+        </div>
+        <div id="Main" class="col">
+            <h2 class="glow" style="center"> MERRY CHRISTMAS AND A HAPPY NEW YEAR!</h2>
+            <h3 class="neon"> I LOVE YOU ALL!</h3>
+            <h4 id="M4"> Christmas Season is back! For this year I'm doing something different so, <br> I have a short letter for each one of you, my loved ones, for this Christmas!</h4><br>
+            <div id="click">
+                <button class="button1">
+                    <div class="click"></div> <span><a href="Momletter.html" id="a1">Romelinda C. Sol (My mother)</a></span>
+                </button>
+                <button class="button2"> <span><a href="Dadletter.html" id="a1">Fernando T. Sol Jr (My father)</a></span></button>
+                <button class="button3"> <span> <a href="Broletter.html" id="a4">Fernando C. Sol III (My big brother)</a></span></button>
+                <button class="button4"> <span><a href="Janaletter.html" id="a1">Jana Marie L. Sabado (My girlfriend)</a></span></button>
+            </div>
+            <h4 id="M3"> I hope you all appreciated my letters! They're very special, like all of you for me. I just hope this Christmas would be the happiest! I thank God for letting all of you to be part of my life! </h4>
+            <h5 id="M2" class="glow1"> Love the one and only limited edition,<br> Frando Romel C. Sol</h5>
+        </div>
+        <div id="M1" class="col-3">
+            <img src="Main1.png" width="200" id="Main2">
+             <img src="Main1.png" width="200" id="Main2">
+            <br>
+            <img src="Main1.png" width="200" id="Main2">
+             <img src="Main1.png" width="200" id="Main2">
+        </div>
+        <style>
+            #snowflakeContainer {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                display: none;
+            }
+
+            .snowflake {
+                position: fixed;
+                background-color: #FFFFFF;
+                user-select: none;
+                z-index: 1000;
+                pointer-events: none;
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+            }
+
+        </style>
+
+        <div id="snowflakeContainer">
+            <span class="snowflake"></span>
+        </div>
+
+        <script>
+            // Array to store our Snowflake objects
+            var snowflakes = [];
+
+            // Global variables to store our browser's window size
+            var browserWidth;
+            var browserHeight;
+
+            // Specify the number of snowflakes you want visible
+            var numberOfSnowflakes = 50;
+
+            // Flag to reset the position of the snowflakes
+            var resetPosition = false;
+
+            // Handle accessibility
+            var enableAnimations = false;
+            var reduceMotionQuery = matchMedia("(prefers-reduced-motion)");
+
+            // Handle animation accessibility preferences 
+            function setAccessibilityState() {
+                if (reduceMotionQuery.matches) {
+                    enableAnimations = false;
+                } else {
+                    enableAnimations = true;
+                }
+            }
+            setAccessibilityState();
+
+            reduceMotionQuery.addListener(setAccessibilityState);
+
+            //
+            // It all starts here...
+            //
+            function setup() {
+                if (enableAnimations) {
+                    window.addEventListener("DOMContentLoaded", generateSnowflakes, false);
+                    window.addEventListener("resize", setResetFlag, false);
+                }
+            }
+            setup();
+
+            //
+            // Constructor for our Snowflake object
+            //
+            function Snowflake(element, speed, xPos, yPos) {
+                // set initial snowflake properties
+                this.element = element;
+                this.speed = speed;
+                this.xPos = xPos;
+                this.yPos = yPos;
+                this.scale = 1;
+
+                // declare variables used for snowflake's motion
+                this.counter = 0;
+                this.sign = Math.random() < 0.5 ? 1 : -1;
+
+                // setting an initial opacity and size for our snowflake
+                this.element.style.opacity = (.1 + Math.random()) / 3;
+            }
+
+            //
+            // The function responsible for actually moving our snowflake
+            //
+            Snowflake.prototype.update = function() {
+                // using some trigonometry to determine our x and y position
+                this.counter += this.speed / 5000;
+                this.xPos += this.sign * this.speed * Math.cos(this.counter) / 40;
+                this.yPos += Math.sin(this.counter) / 40 + this.speed / 30;
+                this.scale = .5 + Math.abs(10 * Math.cos(this.counter) / 20);
+
+                // setting our snowflake's position
+                setTransform(Math.round(this.xPos), Math.round(this.yPos), this.scale, this.element);
+
+                // if snowflake goes below the browser window, move it back to the top
+                if (this.yPos > browserHeight) {
+                    this.yPos = -50;
+                }
+            }
+
+            //
+            // A performant way to set your snowflake's position and size
+            //
+            function setTransform(xPos, yPos, scale, el) {
+                el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0) scale(${scale}, ${scale})`;
+            }
+
+            //
+            // The function responsible for creating the snowflake
+            //
+            function generateSnowflakes() {
+
+                // get our snowflake element from the DOM and store it
+                var originalSnowflake = document.querySelector(".snowflake");
+
+                // access our snowflake element's parent container
+                var snowflakeContainer = originalSnowflake.parentNode;
+                snowflakeContainer.style.display = "block";
+
+                // get our browser's size
+                browserWidth = document.documentElement.clientWidth;
+                browserHeight = document.documentElement.clientHeight;
+
+                // create each individual snowflake
+                for (var i = 0; i < numberOfSnowflakes; i++) {
+
+                    // clone our original snowflake and add it to snowflakeContainer
+                    var snowflakeClone = originalSnowflake.cloneNode(true);
+                    snowflakeContainer.appendChild(snowflakeClone);
+
+                    // set our snowflake's initial position and related properties
+                    var initialXPos = getPosition(50, browserWidth);
+                    var initialYPos = getPosition(50, browserHeight);
+                    var speed = 5 + Math.random() * 40;
+
+                    // create our Snowflake object
+                    var snowflakeObject = new Snowflake(snowflakeClone,
+                        speed,
+                        initialXPos,
+                        initialYPos);
+                    snowflakes.push(snowflakeObject);
+                }
+
+                // remove the original snowflake because we no longer need it visible
+                snowflakeContainer.removeChild(originalSnowflake);
+
+                moveSnowflakes();
+            }
+
+            //
+            // Responsible for moving each snowflake by calling its update function
+            //
+            function moveSnowflakes() {
+
+                if (enableAnimations) {
+                    for (var i = 0; i < snowflakes.length; i++) {
+                        var snowflake = snowflakes[i];
+                        snowflake.update();
+                    }
+                }
+
+                // Reset the position of all the snowflakes to a new value
+                if (resetPosition) {
+                    browserWidth = document.documentElement.clientWidth;
+                    browserHeight = document.documentElement.clientHeight;
+
+                    for (var i = 0; i < snowflakes.length; i++) {
+                        var snowflake = snowflakes[i];
+
+                        snowflake.xPos = getPosition(60, browserWidth);
+                        snowflake.yPos = getPosition(60, browserHeight);
+                    }
+
+                    resetPosition = false;
+                }
+
+                requestAnimationFrame(moveSnowflakes);
+            }
+
+            //
+            // This function returns a number between (maximum - offset) and (maximum + offset)
+            //
+            function getPosition(offset, size) {
+                return Math.round(-5 * offset + Math.random() * (size + 5 * offset));
+            }
+
+            //
+            // Trigger a reset of all the snowflakes' positions
+            //
+            function setResetFlag(e) {
+                resetPosition = true;
+            }
+
+        </script>
+    </div>
+</body>
+
+</html>

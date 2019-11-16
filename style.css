@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Cookie|Damion|Gochi+Hand|Ma+Shan+Zheng|Marck+Script|Merienda|Oleo+Script|Parisienne|Passion+One|Permanent+Marker|Playball|Rock+Salt|Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico&display=swap');
+#Main {
+    height: 59em;
+    background-image: url(B3.jpg);
+    padding-top: 150;
+    background-size: contain;
+    background-repeat: round;
+}
+
+#M1 {
+    background-image: url(B4.jpg);
+    height: 59em;
+}
+#Main h2 {
+    font-size: 50;
+    font-family: Carter One, cursive;
+    text-align: center;
+    vertical-align: middle;
+}
+#M3 {
+    font-family: Pacifico, cursive;
+    color: green;
+}
+#M4 {
+    font-family: Pacifico, cursive;
+    color: red;
+}
+#M2 {
+    font-family: Pacifico, cursive;
+    font-size: 25;
+    color: white;
+    text-align: center;
+}
+.glow1 {
+     text-shadow:
+    0 0 5px yellow,
+    0 0 10px green,
+    0 0 20px white,
+    0 0 40px yellow,
+    0 0 80px yellow,
+    0 0 90px green,
+    0 0 100px yellow,
+    0 0 150px yellow;
+}
+
+.neon {
+  font-family: Permanent Marker;
+  color: red;
+  font-size: 4vw;
+  line-height: 8vw;
+  text-shadow: 0 0 3vw red;
+    text-align: center;
+}
+
+.flux {
+  font-family: neon;
+  color: yellow;
+  font-size: 9vw;
+  text-shadow: 0 0 3vw yellow;
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw goldenrod;
+    color: green;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw yellow;
+    color: yellow;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+.neon1 {
+  color: blue;
+  text-shadow:
+    0 0 5px blue,
+    0 0 10px yellow,
+    0 0 20px yellow,
+    0 0 40px yellow,
+    0 0 80px yellow,
+    0 0 90px white,
+    0 0 100px white,
+    0 0 150px white;
+}
+.neon2{
+  color: #fff;
+  text-shadow:
+    0 0 5px gold,
+    0 0 10px #fff,
+    0 0 20px black,
+    0 0 40px black,
+    0 0 80px black,
+    0 0 90px gold,
+    0 0 100px gold,
+    0 0 150px gold;
+}
+#click {
+    text-align: center;
+    padding-bottom: 20;
+}
+
+#a1 {
+    color: cornsilk;
+ font-family: Carter One, cursive;
+    font-size: 20;
+}
+
+#a2 {
+    color: wheat;
+    text-align: center;
+    font-family: Permanent Marker, cursive;
+
+}
+#a3 {
+    color:black;
+    text-align: center;
+    font-family: Permanent Marker, cursive;
+}
+#a4 {
+    color: black;
+ font-family: Carter One, cursive;
+    font-size: 20;
+}
+
+#Main h2 {
+    text-align: center;
+}
+
+#Main h4 {
+    text-align: center;
+}
+
+#M2 {
+    text-align: center;
+    padding-top: 25;
+}
+#momma1 {
+     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#momma2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50;
+}
+#momma3 {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    border-color: darkgoldenrod;
+    border-spacing: inherit;
+    border-radius: 10%;
+    padding-top: 10;
+}
+#momma4 {
+     border-radius: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10;
+}
+#Mother {
+    background-image: url(B6.jpg);
+    background-size: 15em;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.mom {
+    font-family: 'Damion', cursive;
+    font-size: 25;
+    color: cornsilk
+}
+.mom1 {
+    font-family: 'Cookie', cursive;
+    font-size: 25;
+    color: darkgoldenrod;
+}
+
+#R1 {
+    background: white;
+    height: 70em;
+}
+#R1 h2 {
+    font-family: Merienda, cursive;
+    color:crimson;
+    font-size: 40;
+}
+#R1 h5 {
+    font-family: Merienda, cursive;
+    color:crimson;
+    font-size: 30;
+}
+#R1 h4 {
+    font-family: Damion, cursive;
+    color:darkgoldenrod;
+    font-size: 35;
+}
+#pops1 {
+     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20;
+    padding-bottom: 20;
+    
+}
+#pops2 {
+    padding-top: 10;
+    padding-bottom: 20;
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dad2 {
+    background-image: url(B10.jpg); 
+    height: 70em;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.F1 h2 {
+    font-family: 'Marck Script', cursive;
+    color:lightblue;
+    font-size: 40;
+}
+.F1 h4 {
+    font-family: 'Ma Shan Zheng', cursive;
+    color: blanchedalmond;
+    font-size: 35;
+}
+.F1 h5 {
+    font-family: 'Marck Script', cursive;
+    color:lightblue;
+    font-size: 30;
+}
+.dad {
+     font-family: 'Passion One', cursive;
+    color: goldenrod;
+    font-size: 25
+}
+.dad1 {
+    font-family: 'Tangerine', cursive;
+    color: gold;
+    font-size: 25;
+}
+#H1 {
+    background-image: url(B7.jpg);
+    background-size: 100px;
+    padding-bottom: 2;
+}
+#H1 h2 {
+    font-family: 'Rock Salt', cursive;
+    color: yellow;
+    font-size: 35;
+}
+#H1 h5 {
+    font-family: 'Rock Salt', cursive;
+    color: yellow;
+    font-size: 25;
+}
+#H1 h4 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30;
+    color: black;
+}
+#bro {
+    background-image: url(B9.jpg);
+    height: 52em;
+    background-size: 30em;
+    background-position: right;
+
+}
+
+#bro1 {
+    background-image: url(B11.jpg);
+    background-position: right;
+    background-size: contain;
+}
+.bro2 {
+    font-family: 'Playball', cursive;
+    color: ghostwhite;
+    font-size: 20;
+}
+#bro1 h3 {
+    font-family: 'Gochi Hand', cursive;
+    color: palegoldenrod;
+    font-size: 30;
+    
+}
+#bro1 h4 {
+    font-family: 'Gochi Hand', cursive;
+    color: palegoldenrod;
+    font-size: 30;
+    
+}
+#brotha1 {
+     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10;
+}
+#brotha2 {
+     display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#brotha3{
+    display:inline-block;
+    margin-left:130;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#brotha4{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#J1{
+    background-image: url(B8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#J2 {
+    background-image: url(B5.jpg);
+        height: 100em;
+}
+#JS1 {
+    padding-top: 20;
+    padding-bottom: 20;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#JS2{
+      padding-top: 40;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    border-radius: 20%;
+}
+#JS3{
+      padding-top: 40;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    border-radius: 20%;
+}
+.jana {
+      font-family:Parisienne, cursive; 
+    font-size: 25;
+    color: lightsalmon;
+    
+}
+.jana1 {
+    font-family:Parisienne, cursive; 
+    font-size: 25;
+    color: antiquewhite;
+}
+.jana2 {
+    font-family: Passion One;
+    font-size: 30;
+    color: mistyrose;
+}
+.jana3 {
+    font-family: Parisienne, cursive;
+    font-size: 30;
+    color: whitesmoke;
+}
