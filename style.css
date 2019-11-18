@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Carter+One|Cookie|Damion|Gochi+Hand|Ma+Shan+Zheng|Marck+Script|Merienda|Oleo+Script|Parisienne|Passion+One|Permanent+Marker|Playball|Rock+Salt|Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico&display=swap');
 #Main {
-    height: 59em;
+    height: 70em;
     background-image: url(B3.jpg);
     padding-top: 150;
     background-size: contain;
@@ -10,7 +10,7 @@
 
 #M1 {
     background-image: url(B4.jpg);
-    height: 59em;
+    height: 70em;
 }
 #Main h2 {
     font-size: 50;
