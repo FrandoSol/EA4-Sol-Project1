@@ -11,6 +11,7 @@
 #M1 {
     background-image: url(B4.jpg);
     height: 61em;
+    background-size: cover;
 }
 #Main h2 {
     font-size: 50;
